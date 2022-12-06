@@ -136,11 +136,11 @@ void startScreen()
   textAlign(CENTER,CENTER);
   textFont(f);
   textSize(100);
-  text("NEW RACE",width*.5,height*.33);
+  text("Ghosty Float",width*.5,height*.33);
   textSize(30);
-  text("Press ANY key to start and jump",width/2,height/2);
+  text("Press ANY key to float",width/2,height/2);
   
-  //text("Press ANY key to start and jump",width/2,height/2);
+  //text("Press ANY key to float",width/2,height/2);
 }
 
 // The death screen
@@ -151,7 +151,7 @@ void deadScreen()
   rect(0,0,width,height);
   fill(255);
   textAlign(CENTER,CENTER);
-  text("RIP. Press ANY key to resurrection",width/2,height/2);
+  text(" :(  Press ANY key to float again",width/2,height/2);
   _jumpCount = 0;
 }
 
